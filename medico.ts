@@ -1,7 +1,7 @@
 namespace sistemaHospitalar{
      export class Medico extends Funcionario{
          private _crm:number;
-         private _especialidade:number;
+         private _especialidade:string;
 
          public getCrm(){
              return this._crm;
@@ -15,7 +15,7 @@ namespace sistemaHospitalar{
              return this._especialidade;
          }
 
-         public setEspecialidade(especialidade:number){
+         public setEspecialidade(especialidade:string){
              this._especialidade = especialidade;
          }
 
